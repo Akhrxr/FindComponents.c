@@ -1,0 +1,18 @@
+   FindComponents.c // The main program that will take two command line arguments giving the names of an input file and an output file.
+// The input file will have vertices and the output file will return the adjacency lists, distances between vertexes
+// and their shortest paths if they exist.
+
+    List.h // Contains the public portion of the struct/class for operations in Graph.c 
+
+    List.c // Contains the private portion of the struct/class for operations in Graph.c 
+    
+    Graph.h // Contains the public portion of the struct/class for operations in FindPath.c 
+
+    Graph.c // Contains the private portion of the struct/class for operations in FindPath.c Chose to
+    //use global time variable for functions visit() and DFS() as it was the simpilest to do in this 
+    //instance.
+
+    GraphTest.c // Tests the functions of the Graph ADT in a proper manner to check for memory leaks and inefficiencies. 
+
+    *//Both list.h and list.c as well as Graph.h and Graph.c 
+    //will include their constructors/destructors, member functions, and manipulation procedures.//*
